@@ -10,23 +10,34 @@
     <div id="container">
       <div id="display">0</div>
       <div id="calculator">
-        <button type="button" class="btn">7</button>
-        <button type="button" class="btn">8</button>
-        <button type="button" class="btn">9</button>
-        <button type="button" class="btn org">x</button>
-        <button type="button" class="btn">4</button>
-        <button type="button" class="btn">5</button>
-        <button type="button" class="btn">6</button>
-        <button type="button" class="btn org">-</button>
-        <button type="button" class="btn">1</button>
-        <button type="button" class="btn">2</button>
-        <button type="button" class="btn">3</button>
-        <button type="button" class="btn org org">+</button>
-        <button type="button" class="btn zero">0</button>
-        <button type="button" class="btn ac">AC</button>
-        <button type="button" class="btn org">/</button>
-        <button type="button" class="btn equals org">=</button>
+        <button data-number="7" type="button" class="btn">7</button>
+        <button data-number="8" type="button" class="btn">8</button>
+        <button data-number="9" type="button" class="btn">9</button>
+        <button data-operator="multiply" type="button" class="btn org">
+          x
+        </button>
+
+        <button data-number="4" type="button" class="btn">4</button>
+        <button data-number="5" type="button" class="btn">5</button>
+        <button data-number="6" type="button" class="btn">6</button>
+        <button data-operator="subtract" type="button" class="btn org">
+          -
+        </button>
+
+        <button data-number="1" type="button" class="btn">1</button>
+        <button data-number="2" type="button" class="btn">2</button>
+        <button data-number="3" type="button" class="btn">3</button>
+        <button data-operator="+" type="button" class="btn org">+</button>
+
+        <button data-number="0" type="button" class="btn zero">0</button>
+        <button data-operator="clear" type="button" class="btn ac">AC</button>
+        <button data-operator="divide" type="button" class="btn org">/</button>
+
+        <button data-operator="equals" type="button" class="btn equals org">
+          =
+        </button>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
