@@ -55,12 +55,12 @@ body {
   color: var(--off-white);
   font-size: var(--font-s);
   font-weight: var(--font-w);
-  transition: opacity 0.2s;
+  transition: all 0.4s cubic-bezier(0.28, 0.11, 0.32, 1);
   cursor: pointer;
 }
 
 .btn:active {
-  opacity: 0.7;
+  background-color: #ffffffd2;
 }
 
 .org {
